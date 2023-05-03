@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+    background-image:url("pexels-ithalu-dominguez-907485.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{
+    color: #7f0362;
+    font-size: x-large;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 0;
+}
+header{
+    color: #cb069d;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #ed07a0;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background-color: #f1b5ed;;
+    outline: rgb(20, 20, 20);
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #070707;
+}
+::-webkit-input-placeholder{
+    color: #fa12ea;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: rgb(248, 6, 236);
+    background: rgba(218, 194, 211, 0.7);
+    cursor: pointer;
+    transition: .3s ;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #121111;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #f20606;
+}
