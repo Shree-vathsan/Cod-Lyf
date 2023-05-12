@@ -7,19 +7,58 @@ html{
     align-items: flex-end;
 }
 body{
-    background-image: url("pexels-ithalu-dominguez-907485.jpg");
+    background-color: rgba(255, 255, 255, 0.826);
     font-size: medium;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
-span{
-    font-family: "Montserrat", sans-serif;
-    color: rgb(92, 3, 67);
-    font-weight: 600;
-}
+
 header{
-    text-align: center;
+    margin: 0PX;
+    height: 5px;
+    text-align: LEFT;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 3rem;
+    color: rgb(151, 7, 134)
 }
+.top Header{
+    margin-top: -10px;
+    font-size: 50px;
+}
+
+.top{
+    margin-left: 20px;
+}
+p{
+    text-align: left;
+    font-size: 20px;
+
+    line-height: 1.7;
+    font-weight: 400;
+    color:#580443;
+    margin-left: 12px;
+    font-family:"Montserrat", sans-serif;
+} 
+
+.image img{
+    height: 300px;
+    width: 510px;
+    vertical-align: top;
+    float:right;
+    border-style: double;
+    border-width: 12px;
+    border-color: #580443;
+    background-attachment:scroll;
+    margin-right: 45PX;
+    
+}
+h2 {
+    height: 50px;
+    display: flex;
+    margin-left: 6px;
+    font-weight: bolder;
+    justify-content: space-between;
+    color: #580443;
+
+  }

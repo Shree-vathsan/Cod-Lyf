@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #dbcdd9;
+  font-family: "Montserrat", sans-serif,;
+  font-weight: 400;
+}
+
+.wrapper{
+  margin-top: 10px;
+}
+
+.wrapper h1{
+  font-family: "Montserrat", sans-serif,;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.courses{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.courses .Our_Courses{
+  background: #ab9caa;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #100f0f;  
+  position: relative;
+}
+
+.courses .Our_Courses h3{
+  color: #550352;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.courses .Our_Courses p.role{
+  color: #550532;
+  margin: 12px 0;
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.courses .Our_Courses .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 0%;
+  background: #c66fb8;
+}
+
+.courses .Our_Courses .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+p{
+    font-size: 15px;
+}

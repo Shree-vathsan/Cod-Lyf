@@ -5,33 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style6.css">
+   
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <title>CodeLyf.loginpage</title>
 
 </head>
 <body>
+    <header class="header">
+      </header>
    <div class="box">
     <div class="container">
 
         <div class="top">
             <span>CodeLyf</span>
+            
             <header>Account already exists?Login</header>
         </div>
 
         <div class="input-field">
-            <input type="text" class="input" placeholder="Username" id="">
+            <input type="text" class="input" id="uname" placeholder="Username">
             <i class='bx bx-user' ></i>
         </div>
 
         <div class="input-field">
-            <input type="Password" class="input" placeholder="Password" id="">
+            <input type="Password" class="input" id="pswd" placeholder="Password">
             <i class='bx bx-lock-alt'></i>
         </div>
 
         <div class="input-field">
-            <input type="submit" class="submit" value="Login" id="">
-        </div>
+            <a href="index1.html" class="back"><input type="submit" class="submit" value="Login" onclick="return inputvalid();" id="sub">
+            </a>
+            </div>
 
         <div class="two-col">
             <div class="one">
@@ -42,6 +47,7 @@
                 <label><a href="#">Forgot password?</a></label>
             </div>
         </div>
+        <script src="login.js"></script>
     </div>
 </div>  
 </body>

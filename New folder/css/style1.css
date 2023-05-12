@@ -222,13 +222,13 @@ h4 {
 }
 
 .vaths1-image img {
-  height: 90%;
+  height: 60%;
   box-shadow: 0 0 10rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .vaths1-img-overlay {
   position: absolute;
-  bottom: 0;
+  bottom: 50px;
   left: -10%;
   background-color: var(--primary-color);
   padding: 4rem;
